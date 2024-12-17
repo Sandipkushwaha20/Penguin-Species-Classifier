@@ -3,9 +3,9 @@ import numpy as np
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 
-st.title('🤖 Machine Learning App')
+st.title('🐧 Penguin Species Predictor')
 
-st.info('This is app builds a machine learning model!')
+st.info('This app builds a powerful machine learning model to predict the species of penguins with accuracy and ease!')
 
 with st.expander('Data'):
   st.write('**Raw data**')
@@ -25,7 +25,7 @@ with st.expander('Data visualization'):
 
 # Input features
 with st.sidebar:
-  st.header('Input features')
+  st.header('Enter Penguin Characteristics')
   island = st.selectbox('Island', ('Biscoe', 'Dream', 'Torgersen'))
   bill_length_mm = st.slider('Bill length (mm)', 32.1, 59.6, 43.9)
   bill_depth_mm = st.slider('Bill depth (mm)', 13.1, 21.5, 17.2)

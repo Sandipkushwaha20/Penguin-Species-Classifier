@@ -1,4 +1,4 @@
-# 🤖 Machine Learning App
+# 🐧 Penguin-Species-Classifier[Machine Learning App]
 
 This is an interactive web application built using Streamlit that predicts the species of penguins based on user-provided features. The app uses a **Random Forest Classifier** machine learning model for prediction and provides insights into the dataset with visualizations.
 
